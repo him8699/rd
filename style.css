@@ -205,8 +205,6 @@ header {
     height: var(--header-height);
     transition: 0.3s all ease-out;
 }
-header.fixed {
-}
 header.nav-up {
     top: -160px;
 }
@@ -241,10 +239,18 @@ nav#navbar ul.menu-list {
     font-size: 1.1em;
     transition: 0.5s all ease-out;
 }
+.col{
+  display: flex;
+}
 .him{
   padding: 3%;
+  padding-bottom: 0%;
+  padding-top: 1%;
 }
-
+.him2{
+  padding: 3%;
+  padding-top: 1%;
+}
 @media screen and (max-width: 991px){
   nav#navbar ul.menu-list {
       display: none;
